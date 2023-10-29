@@ -1,12 +1,12 @@
 import styled from "styled-components";
 export const lightTheme = {
-    corFundo: 'honeydew',
+    corFundo: 'FFFFFF',
     corTexto: 'BLACK',
-    corTitulo: 'red'
+    corTitulo: 'white'
 }
 
 export const darkTheme = {
-    corFundo: '#2a0a0a',
+    corFundo: '#14213D',
     corTexto: 'BLACK',
     corTitulo: '#fffdd0'
 }
@@ -20,7 +20,7 @@ export const Container = styled.div`
 export const Button = styled.button`
     padding: 5px;
     border: ridaius;
-    background-color: #4caf50;
+    background-color: #79C5E7;
     color: white;
     margin: 2px;
 `

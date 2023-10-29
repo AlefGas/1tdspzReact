@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import { Container,Button,lightTheme,darkTheme } from './Estilos/Estilo';
 import { ThemeProvider } from 'styled-components';
 import Cep from './pages/Cep';
-import Formulario from './pages/formulario'
+
 import Techemergentes from './pages/techemergentes';
 
 function App() {
@@ -26,7 +26,6 @@ function App() {
                           <Route path='/sobre' element={<Sobre />} />
                           <Route path='/cep' element={<Cep />} />
                           <Route path='/techemergentes' element={<Techemergentes />} />
-                          <Route path='/formulario' element={<Formulario />} />
                     </Routes>
                   </BrowserRouter>
     </Container>
