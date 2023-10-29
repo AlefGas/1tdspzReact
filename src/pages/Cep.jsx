@@ -1,5 +1,5 @@
 import { useState } from "react"
-import Menu from "../Componentes/Menu"
+import Menu from "../Componentes/menu"
 import { DivForm, InformacoesCep, TitlePage } from "../Estilos/Estilo"
 import axios from "axios"
 

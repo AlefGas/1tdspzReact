@@ -1,13 +1,13 @@
 import styled from "styled-components";
 export const lightTheme = {
     corFundo: 'honeydew',
-    corTexto: 'maroon',
+    corTexto: 'BLACK',
     corTitulo: 'red'
 }
 
 export const darkTheme = {
     corFundo: '#2a0a0a',
-    corTexto: 'white',
+    corTexto: 'BLACK',
     corTitulo: '#fffdd0'
 }
 
@@ -18,15 +18,15 @@ export const Container = styled.div`
 `
 // Criando um botão
 export const Button = styled.button`
-    padding: 10px;
-    border: none;
+    padding: 5px;
+    border: ridaius;
     background-color: #4caf50;
     color: white;
-    margin: 10px;
+    margin: 2px;
 `
 // Criando um título
 export const TitlePage = styled.h1`
-    color: red;
+    color: #grey11	;
     font-size: 20px;
 `
 export const InformacoesCep = styled.div`

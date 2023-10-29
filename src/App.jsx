@@ -1,11 +1,12 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
-import Sobre from './pages/Sobre';
+import Sobre from './pages/sobre';
 import React, { useState } from 'react';
-import ListaCarros from './Pages/ListaCarros';
 import { Container,Button,lightTheme,darkTheme } from './Estilos/Estilo';
 import { ThemeProvider } from 'styled-components';
 import Cep from './pages/Cep';
+import Formulario from './pages/formulario'
+import Techemergentes from './pages/techemergentes';
 
 function App() {
   const [theme,setTheme]= useState('light')
@@ -15,7 +16,7 @@ function App() {
   return (
     <>
     <ThemeProvider theme={theme ==='light' ? lightTheme : darkTheme}>
-     <h1>CONFIGURAÇÃO DE UM LOGO</h1>
+     <h1>TECH EMERGENTES </h1>
     <Button onClick={mudarTheme}>BOTÃO</Button>
     <hr/>
     <Container>
@@ -23,8 +24,9 @@ function App() {
                     <Routes>
                           <Route path='/' element={<Home />} />
                           <Route path='/sobre' element={<Sobre />} />
-                          <Route path='/listacarros' element={<ListaCarros />} />
                           <Route path='/cep' element={<Cep />} />
+                          <Route path='/techemergentes' element={<Techemergentes />} />
+                          <Route path='/formulario' element={<Formulario />} />
                     </Routes>
                   </BrowserRouter>
     </Container>

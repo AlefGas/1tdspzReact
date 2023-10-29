@@ -16,9 +16,10 @@ function menu() {
             <nav style={menu}>
                 <ul style={{ display: 'flex', listStyle: 'none' }}>
                     <li><a href="/" style={link}>HOME</a>  </li>
-                    <li><a href="/listacarros" style={link}>LISTA CARROS</a>  </li>
                     <li><a href="/sobre"style={link} >SOBRE</a>  </li>
                     <li><a href="/cep"style={link} >CEP</a>  </li>
+                    <li><a href="/techemergentes"style={link} >TECH EMERGENTES</a>  </li>
+                    <li><a href="/formulario"style={link} >FORMULARIO</a>  </li>
                 </ul>
             </nav>
         </>
