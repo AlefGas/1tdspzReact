@@ -1,5 +1,5 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import Home from './pages/Home';
+import Home from './pages/home';
 import Sobre from './pages/sobre';
 import React, { useState } from 'react';
 import { Container,Button,lightTheme,darkTheme } from './Estilos/Estilo';
